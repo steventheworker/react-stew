@@ -13,10 +13,9 @@ class Posts extends Component {
           this['method'] = this['method'].bind(this); 
        */
 
-        /* //local state, non-redux
-         this.setState({key: val, ...});
-         this.state = {};
-        */
+        //local state, non-redux
+        this.state = {}; //this.setState({key: val, ...});
+
     }
 //some other life cycle methods: getDerivedStateFromProps, shouldComponentUpdate, getSnapshotBeforeUpdate, componentDidMount, componentDidUpdate, componentWillUnmount, componentWillMount...
 /*...             ...

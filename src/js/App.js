@@ -4,6 +4,8 @@ import {Provider} from 'react-redux';
 import Posts from './components/posts';
 import store from './store';
 
+import {fn} from './FrankenQuery';window.FrankenQuery = fn; //if you don't want to use it delete it, but... https://github.com/steventheworker/FrankenQuery
+
 function Error() {return (<h3>Error 404 page does not exist</h3>);}
 function pg2() {
     return (
